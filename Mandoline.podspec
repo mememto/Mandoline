@@ -8,11 +8,11 @@ Pod::Spec.new do |s|
     In order to get the most out of it, a cell should implement the Selectable protocol that dictates whether a cell `isSelectable`.
                        DESC
 
-  s.homepage         = 'https://github.com/blueapron/Mandoline'
+  s.homepage         = 'https://github.com/mememto/Mandoline'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ag' => 'anat.gilboa@blueapron.com' }
-  s.source           = { :git => 'https://github.com/blueapron/Mandoline.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/mememto/Mandoline.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 
@@ -20,5 +20,5 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'Mandoline' => ['Mandoline/Assets/**/*']
   }
-  s.dependency 'SnapKit', '~> 4.0.0'
+  s.dependency 'SnapKit', '~> 3.2.0'
 end
